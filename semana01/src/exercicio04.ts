@@ -9,8 +9,8 @@ export default function exercicio04(){
     let brancoPorcentual = (votosBrancos / eleitores) * 100;
     let validosPorcentual = ((eleitores - (votosBrancos + votosNulos)) / eleitores) * 100;
     console.log()
-    console.log(`PORCENTAGEM NULOS: ${nuloPorcentual.toFixed(2)} %`)
-    console.log(`PORCENTAGEM BRANCOS: ${brancoPorcentual.toFixed(2)} %`)
-    console.log(`PORCENTAGEM VÁLIDOS: ${validosPorcentual.toFixed(2)} %`) 
+    console.log(`PORCENTAGEM NULOS: ${nuloPorcentual.toFixed(2)}%`)
+    console.log(`PORCENTAGEM BRANCOS: ${brancoPorcentual.toFixed(2)}%`)
+    console.log(`PORCENTAGEM VÁLIDOS: ${validosPorcentual.toFixed(2)}%`) 
 }
 
