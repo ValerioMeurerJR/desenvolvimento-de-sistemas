@@ -1,9 +1,10 @@
-import leia from "readline-sync"
+import leia from 'readline-sync';
 
 export default function exercicio02(){
-    let largura = leia.questionFloat("Digite a largura: ");
-    let altura = leia.questionFloat("Digite a altura: ");
-    let area = largura * altura    
-    console.log(`A area do retangulo com largura ${largura} e altura ${altura} è ${area}`)
+    let altura = leia.questionFloat("INFORME A ALTURA DO RETANGULO: ")
+    var largura = leia.questionFloat("INFORME A LARGURA DO RETANGULO: ")
 
+    var area = altura * largura;
+
+    console.log(`A AREA DO RETANGULO É ${area} metros quadrados`);
 }

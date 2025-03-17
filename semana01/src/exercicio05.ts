@@ -1,13 +1,10 @@
-import leia from "readline-sync"
+import leia from 'readline-sync';
 
-export default function exercicio05(){
-    let celcius = leia.questionFloat("DIGITE O A TEMPERATURA EM CELCIUS: ");
-    // var votosValidos = leia.questionInt("DIGITE QTD VOTOS VALIDOS: ");
-    let Fahrenheit = (celcius * 1.8) + 32
-    let Kelvin = celcius + 273;
-    console.log()
-    console.log(`TEMPERATURA EM CELCIUS: ${celcius}°C`)
-    console.log(`TEMPERATURA EM FAHRENHEIT: ${Fahrenheit}°F`)
-    console.log(`TEMPERATURA EM KELVIN: ${Kelvin}K`)
+export default function exercicio05() {
+    var celcius = leia.questionFloat("INFORME A TEMPERATURA EM GRAUS CELCIUS: ");
+
+    var far = celcius * 1.8 + 32;
+    var kelvin = celcius + 273;
+
+    console.log(`${celcius}ºC EM FAHRENHEIT É ${far}ºF E EM KELVIN É ${kelvin}K`);
 }
-

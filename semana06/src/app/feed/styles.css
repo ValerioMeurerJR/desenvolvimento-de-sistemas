@@ -1,0 +1,15 @@
+.container {
+    /* background-color: rgb(20, 116, 116); */
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 32px;
+    padding: 32px 16px;
+    margin: 0 auto;
+}
+
+
+.main {
+    height: 450px;
+    background-color: blueviolet;
+}

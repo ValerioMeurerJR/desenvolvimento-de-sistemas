@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    row-gap: 8px;
+    border: 1px solid #333;
+    margin: 10px;
+}
+
+.resetar {
+    margin: 10px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 8px;
+    padding: 5px;
+}
+.incrementar {
+    margin: 10px;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 8px;
+    padding: 5px;
+}
