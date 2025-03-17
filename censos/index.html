@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Users</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gráfico de Frequencia por Década</h1>
+        <div class="input-group">
+            <input type="text" id="username" placeholder="Digite o usuário:">
+            <button onclick="loadProfile()">Buscar</button>
+        </div>
+    </div>
+    <div class="chart">
+        <canvas id="chart"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
