@@ -50,6 +50,14 @@ export default function Post({ post }: PostProps) {
                     tradução de 1914 por H. Rackham.
                 </p>
             </div>
+            <form className="form">
+                <strong>Deixe um comentário</strong>
+                <textarea placeholder="Deixe um comentário" />
+                <footer>
+                    <button>Publicar</button>
+                </footer>
+
+            </form>
         </article>
     )
 }  
