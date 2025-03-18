@@ -2,6 +2,7 @@
 import Sidebar from "@/components/Sidebar";
 import "./styles.css"
 import Header from "@/components/Header"
+import Post from "@/components/Post";
 
 export default function Feed() {
 
@@ -9,9 +10,13 @@ export default function Feed() {
         <div>
             <Header />
             <div className="container">
-                <Sidebar></Sidebar>
+                <Sidebar />
                 <main className="main">
-
+                    <Post post={{} as any} />
+                    <Post post={{} as any} />
+                    <Post post={{} as any} />
+                    <Post post={{} as any} />
+                    <Post post={{} as any} />
                 </main>
             </div>
         </div>

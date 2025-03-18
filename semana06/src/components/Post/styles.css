@@ -1,0 +1,48 @@
+.post {
+    background-color: #202024;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.post+.post {
+    margin-top: 32px;
+}
+
+.post header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post header .author {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.post header .author .author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.post header .author .author-info strong {
+    color: #e1e1e6;
+    line-height: 1.6;
+}
+
+.post header .author .author-info span,
+.post header time {
+    color: #8d8d99;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+
+
+.post .content {}
+
+.post .content p {
+    color: #c4c4cc;
+    margin-top: 24px;
+    line-height: 1.6;
+}
