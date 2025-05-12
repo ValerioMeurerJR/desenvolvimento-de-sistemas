@@ -7,7 +7,7 @@ export class Task {
     private createdAt: Date;
     private updatedAt: Date;
 
-    constructor(text: string){
+    constructor(text: string) {
         this.id = randomUUID();
         this.text = text;
         this.completed = false;
@@ -15,7 +15,7 @@ export class Task {
         this.updatedAt = new Date();
     }
 
-    public getId(){
+    public getId() {
         return this.id;
     }
 
@@ -23,6 +23,16 @@ export class Task {
         return this.text;
     }
 
+    public setCompleted(completed: boolean): void {
+        this.completed = completed;
+        this.updatedAt = new Date();
+    }
+
+    public setText(text: string): void {
+        this.text = text;
+        this.updatedAt = new Date();
+    }
+    
     public getCompleted() {
         return this.completed;
     }
